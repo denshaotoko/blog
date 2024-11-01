@@ -501,7 +501,7 @@ So far, I only found the timer settings.
 However, at least the following values must be stored somewhere in EEPROM in addition to the two timer settings:
 + Last used mode (single dose timer, dual dose timer, continuous mode)
 + Timer locked/unlocked status
-+ Grind counter (6 digits per timer according to [page 35 of the manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf) )
++ Grind counter (6 digits per timer according to [page 35 of the manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf))
 + Contrast setting for the display  
 
 Another interesting avenue would be to reverse engineer the firmware of the microcontroller to learn more about the inner workings and better understand how  "problematic" data ends up in the EEPROM.
@@ -511,10 +511,10 @@ Reversing the firmware will likely be a more time-consuming task than reading an
 ## Links
 
 + [Eureka Mignon Brew Pro product page](https://www.eureka.co.it/en/products/eureka+1920/mignon+grinders/filter+range/24.aspx)
-+ [PIC16F1936 datasheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf)
-+ [PICkit 3 In-Circuit Debugger/Programmer](https://www.microchip.com/en-us/development-tool/pg164130)
++ [PIC16F1936 data sheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf)
++ [PICkit 3 in-iircuit debugger/programmer](https://www.microchip.com/en-us/development-tool/pg164130)
 + [MPLAB Integrated Programming Environment (IPE)](https://www.microchip.com/en-us/tools-resources/production/mplab-integrated-programming-environment)
-+ [MPLAB X IDE Download](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
-+ [MPLAB IPE Intel HEX File Format](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ipe/sqtp-file-format-specification/intel-hex/)
++ [MPLAB X IDE download](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
++ [MPLAB IPE Intel HEX file format information](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ipe/sqtp-file-format-specification/intel-hex/)
 + [Eureka Mignon Brew Pro parts list/diagram](https://support.wholelattelove.com/hc/en-us/article_attachments/4411738950419)
-+ [Eureka Mignon User Manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf)
++ [Eureka Mignon user manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf)
