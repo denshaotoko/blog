@@ -37,6 +37,7 @@ I could still rely on the dual dose timer or the continuous mode for grinding co
 
 ## Collecting Information
 After deciding to investigate the problem, I opened the grinder to remove the touchscreen assembly from the housing.
+A nice guide on how to remove the display can be found at [here at Clive Coffee](https://support.clivecoffee.com/en/eureka-mignon-specialita-replacing-the-screen/control-panel).
 I also picked up my other faulty touchscreen assembly.
 When looking at both touchscreens and comparing them, nothing stood out as obviously broken or defective.
 Everything looked good as far as I could tell.
@@ -518,3 +519,4 @@ Reversing the firmware will likely be a more time-consuming task than reading an
 + [MPLAB IPE Intel HEX file format information](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ipe/sqtp-file-format-specification/intel-hex/)
 + [Eureka Mignon Brew Pro parts list/diagram](https://support.wholelattelove.com/hc/en-us/article_attachments/4411738950419)
 + [Eureka Mignon user manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf)
++ [Eureka Mignon Specialita: Replacing the Screen and Control Panel](https://support.clivecoffee.com/en/eureka-mignon-specialita-replacing-the-screen/control-panel)
