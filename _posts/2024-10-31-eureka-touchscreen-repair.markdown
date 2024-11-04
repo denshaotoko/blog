@@ -50,9 +50,11 @@ Here is a look at the front and both backsides of the touchscreen assembly.
 ![Back of the PCB B]({{ site.baseurl }}/assets/images/pcb-back-03-05-2021.jpg){: width="31%"}
 
 The actual touchscreen is mounted onto one side of the PCB, and the other holds the microcontroller among other things.
-
 The microcontroller thankfully has markings on it, and it is the exact same microcontroller for A and B.
 It is a PIC16F1936 made by Microchip, and the [data sheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf) is available online.
+Here is what the microcontroller looks like up close:
+![PIC16F1936 Close Up]({{ site.baseurl }}/assets/images/pic16F1936-closeup.jpg){: width="100%"}
+
 
 Besides the microcontroller, both parts had a sticker on the backside of the PCB.
 The sticker for A reads:
