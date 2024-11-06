@@ -511,14 +511,43 @@ Another interesting avenue would be to reverse engineer the firmware of the micr
 A quick check already revealed that the symbols have been stripped.
 Reversing the firmware will likely be a more time-consuming task than reading and programming the PIC16F1936. :(
 
-## Links
+## Other Eureka Grinders
+I only have a Brew Pro available but according to the explosion diagrams of the other Mignon models (links in the [links section](#links)), they all share the same display.
+Here is a list of all Mignon variants that use the 2312.0012v1904EU display part and where I could find an explosion diagram to confirm.
 
++ Mignon Bravo
++ Mignon Brew Pro
++ Mignon Design
++ Mignon Dolce Vita
++ Mignon Perfetto
++ Mignon Specialita
++ Mignon Stark
++ Mignon Turbo
++ Mignon XL
+
+At least one Mignon model uses a different display: the Mignon Libra.
+The Libra uses a display with the part number 2324.0012NLR00-XXX and this is probably due to the grind-by-weight system on that specific model.
+Since the Libra uses this display, it is highly likely that the Libra Brew also uses it.
+I did not find any documentation specifically for the Libra Brew, though.
+
+## Links
+General Collection
 + [Eureka Mignon Brew Pro product page](https://www.eureka.co.it/en/products/eureka+1920/mignon+grinders/filter+range/24.aspx)
 + [PIC16F1936 data sheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf)
 + [PICkit 3 in-iircuit debugger/programmer](https://www.microchip.com/en-us/development-tool/pg164130)
 + [MPLAB Integrated Programming Environment (IPE)](https://www.microchip.com/en-us/tools-resources/production/mplab-integrated-programming-environment)
 + [MPLAB X IDE download](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 + [MPLAB IPE Intel HEX file format information](https://developerhelp.microchip.com/xwiki/bin/view/software-tools/ipe/sqtp-file-format-specification/intel-hex/)
-+ [Eureka Mignon Brew Pro parts list/diagram](https://support.wholelattelove.com/hc/en-us/article_attachments/4411738950419)
 + [Eureka Mignon user manual](https://www.eureka.co.it/public/files/catalogo/20/Mignon%20-%20User%20Manual.pdf)
 + [Eureka Mignon Specialita: Replacing the Screen and Control Panel](https://support.clivecoffee.com/en/eureka-mignon-specialita-replacing-the-screen/control-panel)
+
+Explosion Diagrams
++ [Eureka Mignon Bravo](https://www.mokaconsorten.com/wp-content/uploads/2023/12/Eureka_Mignon_Bravo_new.pdf)
++ [Eureka Mignon Brew Pro](https://www.mokaconsorten.com/wp-content/uploads/2021/12/Eureka_Mignon_Brew_Pro.pdf)
++ [Eureka Mignon Design](https://www.mokaconsorten.com/wp-content/uploads/2021/12/Eureka_Mignon_Design.pdf)
++ [Eureka Mignon Dolce Vita](https://spares.bigwarehouse.com.au/images/files/227853_e6d3559337e8d44f74e5a0ee842b31b1.pdf)
++ [Eureka Mignon Libra](https://www.mokaconsorten.com/wp-content/uploads/2023/12/Eureka_Mignon_Libra_new.pdf)
++ [Eureka Mignon Perfetto](https://www.mokaconsorten.com/wp-content/uploads/2021/12/Eureka_Mignon_Perfetto.pdf)
++ [Eureka Mignon Specialita](https://www.mokaconsorten.com/wp-content/uploads/2021/12/Eureka_Mignon_Specialita.pdf)
++ [Eureka Mignon Stark](https://spares.bigwarehouse.com.au/images/files/227852_c137ed83a917a4582b1802d752330a86.pdf)
++ [Eureka Mignon Turbo](https://www.mokaconsorten.com/wp-content/uploads/2023/12/Eureka_Mignon_Turbo.pdf)
