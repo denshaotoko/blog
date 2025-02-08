@@ -135,7 +135,7 @@ To connect the PICkit to a microcontroller, the following pins must be connected
 #### Pinout of the PIC16F1936
 Next up is the microcontroller.
 To find out which pins need to be connected to the PICkit, the [data sheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf) comes in handy, again.
-According to the data sheet, the pinout of the PIC16F19F1936 looks like this:
+According to the data sheet, the pinout of the PIC16F1936 looks like this:
 
 ![Pinout PIC16F1936]({{ site.baseurl }}/assets/images/pinout-pic16f1936.jpg)
 
