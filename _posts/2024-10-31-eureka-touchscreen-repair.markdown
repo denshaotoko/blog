@@ -53,7 +53,8 @@ The actual touchscreen is mounted onto one side of the PCB, and the other holds 
 The microcontroller thankfully has markings on it, and it is the exact same microcontroller for A and B.
 It is a PIC16F1936 made by Microchip, and the [data sheet](http://ww1.microchip.com/downloads/en/devicedoc/41364e.pdf) is available online.
 Here is what the microcontroller looks like up close:
-![PIC16F1936 Close Up]({{ site.baseurl }}/assets/images/pic16F1936-closeup.jpg){: width="100%"}
+
+![PIC16F1936 Close Up]({{ site.baseurl }}/assets/images/pic16F1936-closeup.jpg){: width="50%"}
 
 
 Besides the microcontroller, both parts had a sticker on the backside of the PCB.
@@ -92,7 +93,7 @@ This is probably referring to the hardware revision of the touchscreen assembly,
 <a id="five-pin-connector"></a>The last interesting part is an unpopulated header.
 This looks exactly like something where a programmer could be connected to the microcontroller, just minus the pins to easily attach jumper cables.
 
-![Five-pin connector]({{ site.baseurl }}/assets/images/five-pin-connector.jpg)!
+![Five-pin connector]({{ site.baseurl }}/assets/images/five-pin-connector.jpg){: width="50%"}
 
 With no visible damage and with the suspicion that the problem was something software-related or microcontroller-related I decided to look into the PIC16F1936 in more detail.
 The plan looked like this:
@@ -153,7 +154,7 @@ However, often there is an alternative (or more) that is far easier to use.
 Remember the [five-pin-connector](#five-pin-connector) on the PCB?
 This one here?
 
-![ICSP connector]({{ site.baseurl }}/assets/images/five-pin-connector.jpg)
+![ICSP connector]({{ site.baseurl }}/assets/images/five-pin-connector.jpg){: width="50%"}
 
 Before trying to connect directly to the pins of the microcontroller using grabbers or something I decided to just try this promising looking connector.
 Spoiler: it worked.
@@ -164,12 +165,12 @@ Unfortunately, it is difficult to solder on some pins for a more stable connecti
 The display/touchscreen on the other side of the PCB is mounted very close to the PCB barely leaving any gap.
 However, the connection is good enough by just pressing the 5 wires into the connector.  
 
-![Pinout of the ICSP connector]({{ site.baseurl }}/assets/images/pinout-pcb.jpg)
-![PICkit to PCB connection]({{ site.baseurl }}/assets/images/connection-pcb-pickit-angle.jpg)
+![Pinout of the ICSP connector]({{ site.baseurl }}/assets/images/pinout-pcb.jpg){: width="30%"}
+![PICkit to PCB connection]({{ site.baseurl }}/assets/images/connection-pcb-pickit-angle.jpg){: width="62%"}
 
 This is how it looked like after I connected the PICkit to the PCB:
 
-![Back of the PCB B]({{ site.baseurl }}/assets/images/connection-pcb-pickit-top.jpg)
+![PICkit PCB connection]({{ site.baseurl }}/assets/images/connection-pcb-pickit-top.jpg)
 
 ## Configuring MPLAB IPE
 To read out and program the controller, I had to change a few settings in MPLAB IPE.
@@ -258,7 +259,7 @@ Interestingly, the spare parts had stickers on them with additional information.
 Here is a photo of one of the spare parts next to a faulty part.
 
 ![Back of the PCB B]({{ site.baseurl }}/assets/images/pcb-back-03-05-2021.jpg){: width="48%"}
-![Back of the spare part PCB ]({{ site.baseurl }}/assets/images/pcb-back-19-23.jpg){: width="48%"}
+![Back of the spare part PCB]({{ site.baseurl }}/assets/images/pcb-back-19-23.jpg){: width="48%"}
 
 The color of the "new" PCB is a darker green and the sticker now holds more information.
 Besides that, the new part looks the same as the old parts.
@@ -383,8 +384,8 @@ diff PIC16F1936-06022020-Faulty.hex PIC16F1936-03052021-Faulty.hex
 ```
 
 ### Analysis
-After comparing the hex files with one another, it was obvious that there only few differences between the faulty hex files and the ones from the working displays.
-To find out what data had changed, I decided to load a hex file into MPLAB X IDE to use the different views (EE Data Memory, User ID Memory, etc.) on the data included in the hex file.
+After comparing the hex files with one another, it was obvious that there are only few differences between the faulty hex files and the ones from the working displays.
+To find out what data had changed, I decided to load a hex file into MPLAB X IDE and to use the different views (EE Data Memory, User ID Memory, etc.) to have a look on the data included in the hex file.
 I started the tool and imported PIC16F1936-1923-Vanilla.hex.
 Next, I opened the EE Data Memory view (aka the EEPROM contents):
 
