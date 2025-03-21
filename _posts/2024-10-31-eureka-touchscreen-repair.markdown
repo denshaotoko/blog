@@ -5,7 +5,7 @@ author: denshaotoko
 categories: 
 ---
 
-Updated 20. March 2025
+Updated 21. March 2025
 
 # Reflashing the Eureka Mignon Brew Pro's Touchscreen Controller
 Back in 2020, I bought a coffee grinder, the [Eureka Mignon Brew Pro](https://www.eureka.co.it/en/products/eureka+1920/mignon+grinders/filter+range/24.aspx) to be precise.
@@ -477,10 +477,10 @@ The only values I can currently make sense of are bytes ```00``` and ```02```.
 | Byte | Value | Comment |
 |------|-------|---------|
 | 00 | 3C | Single dose timer lower byte |
-| 01 | 00 | Single dose timer lower byte |
+| 01 | 00 | Single dose timer upper byte |
 | 02 | 6E | Double dose timer lower byte |
 | 03 | 00 | Double dose timer upper byte |
-| 04 | 02 | Single dose counter 1st byte (lower) |
+| 04 | 01 | Single dose counter 1st byte (lower) |
 | 05 | 00 | Single dose counter 2nd byte |
 | 06 | 00 | Single dose counter 3rd byte |
 | 07 | 00 | Unknown |
@@ -490,7 +490,7 @@ The only values I can currently make sense of are bytes ```00``` and ```02```.
 | 11 | 00 | Unknown |
 | 12 | 00 | Contrast setting |
 | 13 | 01 | Last selected timer/mode (01 single, 02 double) |
-| 14 | 00 | Continuous mode (00 disabled, 01 enabled |
+| 14 | 00 | Continuous mode (00 disabled, 01 enabled) |
 | 15 | 00 | Timer lock status(00 unlocked, 01 locked) |
 | 16 | 00 | Unknown |
 | 17 | 00 | Unknown |
