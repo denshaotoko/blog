@@ -485,8 +485,8 @@ The only values I can currently make sense of are bytes ```00``` and ```02```.
 | 06 | 00 | Single dose counter 3rd byte |
 | 07 | 00 | Unknown |
 | 08 | 00 | Double dose counter 1st byte (lower) |
-| 09 | 00 | Single dose counter 2nd byte |
-| 10 | 00 | Single dose counter 3rd byte |
+| 09 | 00 | Double dose counter 2nd byte |
+| 10 | 00 | Double dose counter 3rd byte |
 | 11 | 00 | Unknown |
 | 12 | 00 | Contrast setting |
 | 13 | 01 | Last selected timer/mode (01 single, 02 double) |
