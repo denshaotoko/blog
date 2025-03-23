@@ -5,7 +5,7 @@ author: denshaotoko
 categories: 
 ---
 
-Updated 21. March 2025
+Updated 23. March 2025 ([EEPROM contents](#eeprom-contents))
 
 # Reflashing the Eureka Mignon Brew Pro's Touchscreen Controller
 Back in 2020, I bought a coffee grinder, the [Eureka Mignon Brew Pro](https://www.eureka.co.it/en/products/eureka+1920/mignon+grinders/filter+range/24.aspx) to be precise.
@@ -474,32 +474,32 @@ After being certain that I was looking at the EEPROM data, I took another look a
 Here is a table showing the first 24 byte of the EEPROM taken from ```PIC16F1936-1923-Vanilla.hex```.
 The only values I can currently make sense of are bytes ```00``` and ```02```.
 
-| Byte | Value | Comment |
-|------|-------|---------|
-| 00 | 3C | Single dose timer lower byte |
-| 01 | 00 | Single dose timer upper byte |
-| 02 | 6E | Double dose timer lower byte |
-| 03 | 00 | Double dose timer upper byte |
-| 04 | 01 | Single dose counter 1st byte (lower) |
-| 05 | 00 | Single dose counter 2nd byte |
-| 06 | 00 | Single dose counter 3rd byte |
-| 07 | 00 | Unknown |
-| 08 | 00 | Double dose counter 1st byte (lower) |
-| 09 | 00 | Double dose counter 2nd byte |
-| 10 | 00 | Double dose counter 3rd byte |
-| 11 | 00 | Unknown |
-| 12 | 00 | Contrast setting |
-| 13 | 01 | Last selected timer/mode (01 single, 02 double) |
-| 14 | 00 | Continuous mode (00 disabled, 01 enabled) |
-| 15 | 00 | Timer lock status(00 unlocked, 01 locked) |
-| 16 | 00 | Unknown |
-| 17 | 00 | Unknown |
-| 18 | 00 | Unknown |
-| 19 | 00 | Unknown |
-| 20 | 00 | Unknown |
-| 21 | 00 | Unknown |
-| 22 | 00 | Unknown |
-| 23 | 00 | Unknown |
+| Byte | Value | Comment                                         |
+|------|-------|-------------------------------------------------|
+| 00   | 3C    | Single dose timer lower byte                    |
+| 01   | 00    | Single dose timer upper byte                    |
+| 02   | 6E    | Double dose timer lower byte                    |
+| 03   | 00    | Double dose timer upper byte                    |
+| 04   | 01    | Single dose counter 1st byte (lower)            |
+| 05   | 00    | Single dose counter 2nd byte                    |
+| 06   | 00    | Single dose counter 3rd byte                    |
+| 07   | 00    | Unknown                                         |
+| 08   | 00    | Double dose counter 1st byte (lower)            |
+| 09   | 00    | Double dose counter 2nd byte                    |
+| 10   | 00    | Double dose counter 3rd byte                    |
+| 11   | 00    | Unknown                                         |
+| 12   | 00    | Contrast setting                                |
+| 13   | 01    | Last selected timer/mode (01 single, 02 double) |
+| 14   | 00    | Continuous mode (00 disabled, 01 enabled)       |
+| 15   | 00    | Timer lock status (00 unlocked, 01 locked)      |
+| 16   | 00    | Unknown                                         |
+| 17   | 00    | Unknown                                         |
+| 18   | 00    | Unknown                                         |
+| 19   | 00    | Unknown                                         |
+| 20   | 00    | Unknown                                         |
+| 21   | 00    | Unknown                                         |
+| 22   | 00    | Unknown                                         |
+| 23   | 00    | Unknown                                         |
 
 ## Future Work
 Since the difference between a working and a non-working touchscreen lies in the EEPROM, it makes sense to learn more about the structure and the contents of the EEPROM.
