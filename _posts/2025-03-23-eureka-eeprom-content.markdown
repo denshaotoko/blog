@@ -26,7 +26,7 @@ As outline above, I started with flashing a display so that it is like a new par
 From there I changed some tiny setting and read out the microcontroller after the change.
 I repeated this process many times and always changed different settings on the touchscreen.
 After comparing all the changes in the hex file collection, here is the most likely layout of the relevant 24 bytes of the EEPROM.
-Note: I also updated the [table]({{ site.baseurl }}{% post_url 2024-10-31-eureka-touchscreen-repair%}#eeprom-contents) in the previous post
+Note: I also updated the [table]({{ site.baseurl }}{% post_url 2024-10-31-eureka-touchscreen-repair%}#eeprom-contents) in the previous post.
 
 | Byte | Value | Comment                                         |
 |------|-------|-------------------------------------------------|
@@ -166,7 +166,7 @@ These high values are very suspicious not only given the fact that I got this da
 ## Contrast Setting
 "Faulty #2" has a weird looking contrast setting of ```F6``` which is 246 in decimal.
 The grinder supports contrast settings of 0 to 7.
-A value of 256 is way out of the configurable interval and hence is verly likely to be a corrupted value.
+A value of 256 is way out of the configurable interval and hence is very likely to be a corrupted value.
 
 ## Data in Bytes 16/17
 Both faulty displays have data in bytes 16 and 17 that is neither in the vanilla hex file nor in any of the hex files I created when I tried mapping the EEPROM.
