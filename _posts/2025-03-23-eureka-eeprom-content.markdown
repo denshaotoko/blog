@@ -1,6 +1,6 @@
 ---
 title: Eureka Mignon EEPROM Content
-date: 2025-03-21
+date: 2025-03-23
 author: denshaotoko
 categories:
 ---
