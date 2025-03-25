@@ -472,7 +472,10 @@ There also could be other factors involved that are unknown to me.
 ### EEPROM Contents
 After being certain that I was looking at the EEPROM data, I took another look at the 24 bytes to see if I could identify some "known" values such as the timers.
 Here is a table showing the first 24 byte of the EEPROM taken from ```PIC16F1936-1923-Vanilla.hex```.
-The only values I can currently make sense of are bytes ```00``` and ```02```.
+~~The only values I can currently make sense of are bytes ```00``` and ```02```.~~
+
+⚠️ I updated the table below after haveing a closer look at the EEPROM values.
+The post can be found [here]({{ site.baseurl }}{% post_url 2025-03-23-eureka-eeprom-content%}).
 
 | Byte | Value | Comment                                         |
 |------|-------|-------------------------------------------------|
